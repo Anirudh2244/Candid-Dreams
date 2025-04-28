@@ -4,7 +4,7 @@ import React from "react";
 // e.g. props.url
 const Images = ({
   url,
-  height = "400px",
+  height = "300px",
   paddingRight = "10px",
   width = "320px",
 }) => {
