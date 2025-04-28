@@ -7,13 +7,11 @@ const Images = ({
   height = "400px",
   paddingRight = "10px",
   width = "320px",
-  top = "0",
-  left = "0",
 }) => {
   return (
     <div
       className={`border-r-2 border-zinc-400 rounded-t-full`}
-      style={{ height, width, top, left, paddingRight }}
+      style={{ height, width, paddingRight }}
     >
       <img
         className="rounded-t-full object-cover h-full "

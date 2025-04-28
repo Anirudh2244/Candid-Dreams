@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Herosection from "./components/Herosection";
+import Services from "./components/Services";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <div className="mx-5 sm:mx-15 h-screen border-l-2 border-r-2 border-zinc-400">
         <Herosection />
+        <Services />
       </div>
     </div>
   );
