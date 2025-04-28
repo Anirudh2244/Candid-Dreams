@@ -10,7 +10,7 @@ function Services() {
       <div class="inline-flex items-center justify-center w-full mt-10">
         <hr class="w-full m-5 h-0.5 my-5 bg-zinc-400 border-0" />
         <span class="px-3 text-4xl text-gray-600 -translate-x-1/2 bg-white absolute left-1/2">
-          What We Do Best?
+          What We Do Best? check
         </span>
       </div>
     </div>
