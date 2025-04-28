@@ -11,9 +11,7 @@ function Herosection() {
         </div>
         <div className="border-t-2 border-zinc-400 px-5 py-10">
           <p>
-            We are experienced event photographers, capturing genuine moments
-            with creativity and care, turning your special memories into
-            timeless stories you'll treasure forever. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iusto explicabo reiciendis in, architecto eius quis harum laborum, sequi odit, debitis sunt. Delectus dicta adipisci animi unde numquam id aut!
+          We are experienced photographers and cinematographers, capturing genuine moments with creativity, passion, and care. From heartfelt smiles to unforgettable celebrations, we turn your special memories into timeless stories through stunning imagery and cinematic films. Our goal is to preserve every emotion, detail, and connection, creating treasures you'll cherish forever.
           </p>
           <button className="bg-red-700 text-white text-sm px-2 py-1 mt-5 rounded-md">
             Get in Touch
