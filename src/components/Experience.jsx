@@ -1,34 +1,48 @@
+import { HeartHandshake, Video } from "lucide-react";
 import React from "react";
+import Images from "./Images";
 
 function Experience() {
   return (
     <div className="flex justify-around items-center mt-15">
-      <div className="flex flex-col justify-center items-start gap-5 w-[50%]">
+      <div className="flex flex-col justify-center items-start gap-5 min-w-[50%] max-w-[50%] ps-5">
         <div className="bg-zinc-300 px-4 py-2 ">About us</div>
         <div className="text-4xl">
           What Sets Us <br />
           Apart!
         </div>
         <div className="grid grid-cols-2 gap-5 justify-center items-center">
-          <div className="bg-gray-300 p-2">
+          <div className=" p-2">
             <p className="text-3xl font-bold">100+</p>
-            <p>Wedding Covered</p>
+            <p>Weddings Covered</p>
           </div>
-          <div className="bg-gray-300 p-2">
+          <div className=" p-2">
             <p className="text-3xl font-bold">10+</p>
             <p> Years of Experience</p>
           </div>
-          <div className="bg-gray-300 p-2">
-            <p className="text-3xl font-bold">100+</p>
+          <div className=" p-2">
+            <p className="text-3xl font-bold">
+              <Video size={40} />
+            </p>
             <p>Storytelling</p>
           </div>
-          <div className="bg-gray-300 p-2">
-            <p className="text-3xl font-bold">100+</p>
+          <div className=" p-2">
+            <p className="text-3xl font-bold">
+              <HeartHandshake size={40} />
+            </p>
             <p>Professionalism</p>
           </div>
         </div>
       </div>
-      <div>images</div>
+
+      <div className="flex justify-start items-end w-[50%] relative  min-h-[350px]">
+        <div className="absolute left-50 bottom-20 z-1 w-[10%]">
+          <Images url="https://media.istockphoto.com/id/1127706701/photo/hindi-wedding-ceremony.jpg?s=1024x1024&w=is&k=20&c=-D2_-mbbweziTG2xRvVHCBgnFX-3495R-jC-lnOEsXs=" />
+        </div>
+        <div className="absolute top-10">
+          <Images url="https://media.istockphoto.com/id/1141906552/photo/indian-hindu-couple-holding-each-other-hands-during-their-marriage-symbolising-love-and.jpg?s=1024x1024&w=is&k=20&c=ykJaSgPmkDS64ey6pD8oMhCmHXg90cN8cgRMZZTN0cc=" />
+        </div>
+      </div>
     </div>
   );
 }
