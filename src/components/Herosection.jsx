@@ -5,7 +5,7 @@ function Herosection() {
   return (
     <div className="flex border-b-2 border-zinc-400 flex-col md:flex-row">
       <div className="md:min-w-[45%] md:max-w-[45%]">
-        <div className="text-6xl px-5 pt-20 pb-5">
+        <div className="font-bold text-4xl sm:text-6xl px-5 pt-10 pb-5 leading-12 sm:leading-18">
           Hey There, <br />
           We Are Candid Dreams
         </div>
