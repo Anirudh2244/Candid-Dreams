@@ -1,5 +1,5 @@
 import React from "react";
-import SquareImages from "./Squareimages";
+import SquareImages from "./SquareImages";
 
 function Portfolio() {
   return (
