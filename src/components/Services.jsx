@@ -21,7 +21,7 @@ function Services() {
       <div className="flex justify-around">
         <div className="w-[32%] flex flex-col justify-center items-center">
           <Images
-            url="https://jaipurpreweddingshoot.com/wp-content/uploads/2024/06/Aanshu_30-scaled.jpg"
+            url="https://thecandidhouse.com/images/upload/TCH02685.jpg"
             width="80%"
           />
           <p className="py-2">Pre Wedding</p>

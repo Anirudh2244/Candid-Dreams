@@ -35,12 +35,20 @@ function Experience() {
         </div>
       </div>
 
-      <div className="flex justify-start items-end w-[50%] relative  min-h-[350px]">
-        <div className="absolute left-50 bottom-20 z-1 w-[10%]">
-          <Images url="https://media.istockphoto.com/id/1127706701/photo/hindi-wedding-ceremony.jpg?s=1024x1024&w=is&k=20&c=-D2_-mbbweziTG2xRvVHCBgnFX-3495R-jC-lnOEsXs=" />
+      <div className="relative w-full  min-w-[50%] aspect-[16/9]">
+        <div className="absolute h-full w-1/2 object-cover left-[40%] z-10">
+          <Images
+            url="https://media.istockphoto.com/id/1127706701/photo/hindi-wedding-ceremony.jpg?s=1024x1024&w=is&k=20&c=-D2_-mbbweziTG2xRvVHCBgnFX-3495R-jC-lnOEsXs="
+            height="100%"
+            width="100%"
+          />
         </div>
-        <div className="absolute top-10">
-          <Images url="https://media.istockphoto.com/id/1141906552/photo/indian-hindu-couple-holding-each-other-hands-during-their-marriage-symbolising-love-and.jpg?s=1024x1024&w=is&k=20&c=ykJaSgPmkDS64ey6pD8oMhCmHXg90cN8cgRMZZTN0cc=" />
+        <div className="absolute h-full w-1/2 object-cover top-[20%] left-0 z-0">
+          <Images
+            url="https://media.istockphoto.com/id/1141906552/photo/indian-hindu-couple-holding-each-other-hands-during-their-marriage-symbolising-love-and.jpg?s=1024x1024&w=is&k=20&c=ykJaSgPmkDS64ey6pD8oMhCmHXg90cN8cgRMZZTN0cc="
+            height="100%"
+            width="100%"
+          />
         </div>
       </div>
     </div>

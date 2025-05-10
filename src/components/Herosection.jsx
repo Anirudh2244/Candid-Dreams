@@ -9,6 +9,7 @@ function Herosection() {
           Hey There, <br />
           We Are Candid Dreams
         </div>
+
         <div className="border-t-2 border-zinc-400 px-5 py-10">
           <p>
           We are experienced photographers and cinematographers, capturing genuine moments with creativity, passion, and care. From heartfelt smiles to unforgettable celebrations, we turn your special memories into timeless stories through stunning imagery and cinematic films. Our goal is to preserve every emotion, detail, and connection, creating treasures you'll cherish forever.
@@ -17,6 +18,7 @@ function Herosection() {
             Get in Touch
           </button>
         </div>
+        
       </div>
 
       <div className="md:border-l-2 border-zinc-400 relative flex justify-end items-end md:pr-10 pr-5 pb-5 w-full min-h-[400px] ">
