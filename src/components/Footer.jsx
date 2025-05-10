@@ -9,7 +9,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="">
-      <div className=" py-10 text-center border-l-2 mx-5 sm:mx-15 border-r-2 border-zinc-400">
+      <div className="px-2 py-10 text-center border-l-2 mx-5 sm:mx-15 border-r-2 border-zinc-400">
         <p className="text-4xl italic">Candid Dreams</p>
         <p className="text-xl my-5">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque,
