@@ -1,1 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap");
 @import "tailwindcss";
+
+.head-font {
+  font-family: "Delius Swash Caps", cursive;
+  
+  font-style: normal;
+}

@@ -46,7 +46,7 @@ export default function SquareImages() {
       {WEDDINGS.map((wedding, index) => (
         <div key={index}>
           <SquareImage url={wedding.url} />
-          <p className="mt-5 text-xl text-zinc-600 italic">{wedding.name}</p>
+          <p className="mt-5 text-xl text-zinc-600 head-font">{wedding.name}</p>
         </div>
       ))}
     </div>

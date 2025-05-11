@@ -4,17 +4,21 @@ function Plansection() {
   return (
     <div className="flex justify-between items-center flex-col sm:flex-row  sm:gap-0 gap-15 mt-15 bg-zinc-200 py-15 ">
       <div className="sm:w-1/2  pl-5">
-        <p className="text-4xl">
+        <p className="text-4xl head-font text-zinc-800">
           Getting Ready to Plan a <br /> special Event
         </p>
-        <p className="my-5">
+        <p className="my-5 text-zinc-600">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
           incidunt labore fugiat sunt temporibus, quia omnis, hic ratione
           consequatur fugit accusantium, nihil ducimus ab. Doloribus.
         </p>
-        <button className="bg-red-700 px-4 py-2 text-white ">
+        <a
+          href="https://wa.me/918114412845"
+          target="_blank"
+          className="bg-red-700 px-4 py-2 text-white "
+        >
           Get in Touch
-        </button>
+        </a>
       </div>
 
       <div class="relative w-full sm:w-[40%] h-[20%] max-w-[700px] aspect-[16/8]  ">

@@ -6,32 +6,32 @@ function Experience() {
   return (
     <div className="flex flex-col sm:flex-row justify-around sm:items-center mt-15">
       <div className="flex flex-col items-start gap-5 ps-5">
-        <div className="bg-zinc-300 px-4 py-2 ">About us</div>
-        <div className="text-4xl">
+        <div className="bg-zinc-400 text-white px-4 py-2 ">About us</div>
+        <div className="text-4xl head-font text-zinc-800">
           What Sets Us <br />
           Apart!
         </div>
-        <div className="grid grid-cols-2 gap-5 justify-center items-center">
+        <div className="grid grid-cols-2 gap-4 justify-center items-center">
           <div className=" p-2">
-            <p className="text-3xl font-bold">100+</p>
-            <p>Weddings Covered</p>
+            <p className="text-3xl text-zinc-800 font-bold">100+</p>
+            <p className="text-zinc-800">Weddings Covered</p>
+          </div>
+          <div className="p-2">
+            <p className="text-3xl font-bold text-zinc-800">10+</p>
+            <p className="text-zinc-800"> Years of Experience</p>
           </div>
           <div className=" p-2">
-            <p className="text-3xl font-bold">10+</p>
-            <p> Years of Experience</p>
-          </div>
-          <div className=" p-2">
-            <p className="text-3xl font-bold">
+            <p className="text-3xl text-zinc-800 font-bold">
               <Video size={40} />
             </p>
-            <p>Storytelling</p>
-          </div>
 
+            <p className="text-zinc-800">Storytelling</p>
+          </div>
           <div className=" p-2">
-            <p className="text-3xl font-bold">
+            <p className="text-3xl text-zinc-800 font-bold">
               <HeartHandshake size={40} />
             </p>
-            <p>Professionalism</p>
+            <p className="text-zinc-800">Professionalism</p>
           </div>
         </div>
       </div>
