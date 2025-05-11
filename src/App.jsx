@@ -9,6 +9,7 @@ import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
 import Plansection from "./components/Plansection";
 import Footer from "./components/Footer";
+import YtVideos from "./components/YtVideos";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,9 +22,10 @@ function App() {
         <Services />
         <Experience />
         <Portfolio />
+        <YtVideos />
         <Plansection />
       </div>
-        <Footer />
+      <Footer />
     </div>
   );
 }
