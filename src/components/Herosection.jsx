@@ -1,14 +1,13 @@
 import React from "react";
 import Images from "./Images";
-
+import feature_video from "../assets/videos/herovideo.mp4";
 function Herosection() {
   return (
     <div className="flex border-b-2 border-zinc-400 flex-col md:flex-row">
       <div className="md:min-w-[45%] md:max-w-[45%]">
         <div className="text-4xl sm:text-6xl px-5 pt-10 pb-5 leading-12 sm:leading-18 head-font font-bold text-zinc-800">
           Hey There! <br />
-          We Are The 
-          Candid Dreams.
+          We Are The Candid Dreams.
         </div>
 
         <div className="border-t-2 border-zinc-400 px-5 py-10">
@@ -32,16 +31,12 @@ function Herosection() {
 
       <div className="md:border-l-2 border-zinc-400 relative flex justify-end items-end md:pr-10 pr-5 pb-5 w-full min-h-[400px] ">
         <div className="absolute h-[90%] md:w-[60%] w-[70%]">
-          <Images
-            url="https://www.ptaufiqphotography.com/wp-content/uploads/2018/10/ptaufiq-indian-wedding-jaisalmer-india-destination-engagement-1280x854.jpg"
-            height="100%"
-            width="100%"
-          />
+          <Images url={feature_video} video={true} height="100%" width="100%" />
         </div>
         <div className="absolute md:left-[10%] left-[10%] h-[50%] md:w-[40%] w-[40%]">
           {" "}
           <Images
-            url="https://media.istockphoto.com/id/866987706/photo/indian-wedding-hands.jpg?s=1024x1024&w=is&k=20&c=hMoZyz4VbXnYTI6QDPH7hH_4wdGAHnNOhHvQQ9sIgkc="
+            url="https://www.ptaufiqphotography.com/wp-content/uploads/2018/10/ptaufiq-indian-wedding-jaisalmer-india-destination-engagement-1280x854.jpg"
             height="100%"
             width="100%"
           />
