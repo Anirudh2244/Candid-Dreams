@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 
 const Typewriter = () => {
-  const staticPart = "We capture"; // static text part
-  const dynamicWords = ["Emotions❤️", "Memories✨", "Heart❤️", "Feelings✨"];
+  const staticPart = "We Capture"; // static text part
+  const dynamicWords = ["Emotions!❤️", "Memories!✨", "Heart!❤️", "Feelings!✨"];
   const typingSpeed = 100;
   const backspaceSpeed = 50;
   const delayBetweenWords = 1000;

@@ -26,7 +26,7 @@ function Herosection() {
           <a
             href="https://wa.me/918114412845"
             target="_blank"
-            className="bg-red-700 px-4 py-2 text-white "
+            className="bg-red-700 hover:bg-red-900 px-4 py-2 text-white "
           >
             Get in Touch
           </a>
