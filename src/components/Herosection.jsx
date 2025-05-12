@@ -37,7 +37,7 @@ function Herosection() {
         <div className="absolute h-[90%] md:w-[60%] w-[70%]">
           <Images url={feature_video} video={true} height="100%" width="100%" />
         </div>
-        <div className="absolute md:left-[10%] left-[10%] h-[50%] md:w-[40%] w-[40%]">
+        <div className="absolute md:left-[5%] left-[5%] h-[50%] md:w-[40%] w-[40%]">
           {" "}
           <Images
             url="https://www.ptaufiqphotography.com/wp-content/uploads/2018/10/ptaufiq-indian-wedding-jaisalmer-india-destination-engagement-1280x854.jpg"
