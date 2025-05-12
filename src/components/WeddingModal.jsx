@@ -12,7 +12,7 @@ export default function WeddingModal({ url, name }) {
   }, [show]);
   return (
     <div>
-      <SquareImage url={url} handleClick={handleShow} popupMode={true} />
+      <SquareImage url={url} handleClick={handleShow} normalMode={true} />
       <p className="mt-5 text-xl text-zinc-600 head-font">{name}</p>
       {show && (
         <div
@@ -35,11 +35,11 @@ export default function WeddingModal({ url, name }) {
 }
 
 // individual image
-function SquareImage({ url, handleClick, popupMode = false }) {
+function SquareImage({ url, handleClick, normalMode = false }) {
   return (
     <div
       className={`${
-        popupMode ? "border" : ""
+        normalMode ? "border" : ""
       } border-gray-400 relative aspect-[4/3]`}
       onClick={handleClick}
     >
@@ -51,16 +51,21 @@ function SquareImage({ url, handleClick, popupMode = false }) {
 
       <div
         style={{ backgroundImage: `url(${url})` }}
+        onClick={(e) => {
+          if (!normalMode) {
+            e.stopPropagation();
+          }
+        }}
         className={`w-full h-full bg-cover bg-center absolute ${
-          popupMode ? "top-[5%] left-[5%]" : "rounded-lg"
+          normalMode ? "top-[5%] left-[5%]" : "rounded-lg"
         }`}
       ></div>
-      {popupMode || (
+      {normalMode || (
         <button
-          className="absolute -top-4 -right-4 cursor-pointer bg-zinc-400 rounded-full hover:bg-zinc-500"
+          className="absolute -top-[15px] -right-[15px] cursor-pointer bg-zinc-200   rounded-full h-[30px] p-1 flex justify-center items-center w-[30px] hover:bg-zinc-300"
           role="button"
         >
-          <X size={25} color="#fff" />
+          <X size={25} color="#000" />
         </button>
       )}
     </div>
