@@ -1,6 +1,7 @@
 import React from "react";
 import Images from "./Images";
 import feature_video from "../assets/videos/herovideo.mp4";
+import Typewriter from "./Typewriter";
 function Herosection() {
   return (
     <div className="flex border-b-2 border-zinc-400 flex-col md:flex-row">
@@ -9,6 +10,9 @@ function Herosection() {
           Hey There! <br />
           We Are The Candid Dreams.
         </div>
+        <p className="text-xl sm:text-2xl px-5 pb-5 head-font text-zinc-800">
+          <Typewriter />
+        </p>
 
         <div className="border-t-2 border-zinc-400 px-5 py-10">
           <p className="mb-5 text-zinc-600">
