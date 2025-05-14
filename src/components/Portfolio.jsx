@@ -1,53 +1,66 @@
 import React from "react";
 import WeddingModal from "./WeddingModal";
+
 const WEDDINGS = [
   {
     urls: [
-      "https://images.pexels.com/photos/5589840/pexels-photo-5589840.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/5589840/pexels-photo-5589840.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/5589840/pexels-photo-5589840.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "public/assets/images/wedding/w1/1.jpg",
+      "public/assets/images/wedding/w1/2.jpg",
+      "public/assets/images/wedding/w1/3.jpg",
+      "public/assets/images/wedding/w1/4.jpg",
+      "public/assets/images/wedding/w1/5.jpg",
     ],
-    name: "Abhishek weds APO",
+    name: "Megha & Saurabh",
   },
   {
     urls: [
-      "https://images.pexels.com/photos/16445761/pexels-photo-16445761/free-photo-of-hugging-newlyweds-in-traditional-clothing.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/16445761/pexels-photo-16445761/free-photo-of-hugging-newlyweds-in-traditional-clothing.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/16445761/pexels-photo-16445761/free-photo-of-hugging-newlyweds-in-traditional-clothing.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "public/assets/images/wedding/w2/1.jpg",
+      "public/assets/images/wedding/w2/2.jpg",
+      "public/assets/images/wedding/w2/3.jpg",
+      "public/assets/images/wedding/w2/4.jpg",
+      "public/assets/images/wedding/w2/5.jpg",
     ],
-    name: "Vivaan weds Isha",
+    name: "Nehal & Akshay",
   },
   {
     urls: [
-      "https://images.pexels.com/photos/30817333/pexels-photo-30817333/free-photo-of-elegant-black-and-white-wedding-kiss.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/30817333/pexels-photo-30817333/free-photo-of-elegant-black-and-white-wedding-kiss.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/30817333/pexels-photo-30817333/free-photo-of-elegant-black-and-white-wedding-kiss.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "public/assets/images/wedding/w3/1.jpg",
+      "public/assets/images/wedding/w3/2.jpg",
+      "public/assets/images/wedding/w3/3.jpg",
+      "public/assets/images/wedding/w3/4.jpg",
+      "public/assets/images/wedding/w3/5.jpg",
     ],
-    name: "Kabir weds Meera",
+    name: "Nikita & Saurabh",
   },
   {
     urls: [
-      "https://images.pexels.com/photos/11087143/pexels-photo-11087143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/11087143/pexels-photo-11087143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/11087143/pexels-photo-11087143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "public/assets/images/wedding/w4/1.jpg",
+      "public/assets/images/wedding/w4/2.jpg",
+      "public/assets/images/wedding/w4/3.jpg",
+      "public/assets/images/wedding/w4/4.jpg",
+      "public/assets/images/wedding/w4/5.jpg",
     ],
-    name: "Aryan weds Saanvi",
+    name: "Saumaya & Ravindra",
   },
   {
     urls: [
-      "https://images.pexels.com/photos/20486241/pexels-photo-20486241/free-photo-of-a-newlywed-couple.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/20486241/pexels-photo-20486241/free-photo-of-a-newlywed-couple.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/20486241/pexels-photo-20486241/free-photo-of-a-newlywed-couple.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "public/assets/images/wedding/w5/11.jpg",
+      "public/assets/images/wedding/w5/2.jpg",
+      "public/assets/images/wedding/w5/3.jpg",
+      "public/assets/images/wedding/w5/4.jpg",
+      "public/assets/images/wedding/w5/5.jpg",
     ],
-    name: "Aditya weds Riya",
+    name: "Shefali & Rahul",
   },
   {
     urls: [
-      "https://images.pexels.com/photos/18107914/pexels-photo-18107914/free-photo-of-smiling-newlyweds-in-traditional-clothing.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/18107914/pexels-photo-18107914/free-photo-of-smiling-newlyweds-in-traditional-clothing.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/18107914/pexels-photo-18107914/free-photo-of-smiling-newlyweds-in-traditional-clothing.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "public/assets/images/wedding/w6/1.jpg",
+      "public/assets/images/wedding/w6/2.jpg",
+      "public/assets/images/wedding/w6/3.jpg",
+      "public/assets/images/wedding/w6/4.jpg",
+      "public/assets/images/wedding/w6/5.jpg",
     ],
-    name: "Rahul weds Priya",
+    name: "Sushila & Sambhu",
   },
 ];
 
