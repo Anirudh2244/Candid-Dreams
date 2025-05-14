@@ -1,18 +1,30 @@
 import { X } from "lucide-react";
 import React, { useEffect, useState } from "react";
+import ImageGallary from "./ImageGallary";
 
 // to render all images
 export default function WeddingModal({ url, name }) {
   const [show, setShow] = useState(false);
+
+  // Everytime handle show is called, it will toggle the value of show
   const handleShow = () => {
     setShow((prev) => !prev);
   };
+
+  // const handleShow = () => {
+  //   if (show) {
+  //     setShow(false);
+  //   } else if (!show) {
+  //     setShow(true);
+  //   }
+  // };
+
   useEffect(() => {
     document.body.style.overflow = show ? "hidden" : "auto";
   }, [show]);
   return (
     <div>
-      <SquareImage url={url} handleClick={handleShow} normalMode={true} />
+      <SquareImage url={url[0]} handleClick={handleShow} normalMode={true} />
       <p className="mt-5 text-xl text-zinc-600 head-font">{name}</p>
       {show && (
         <div
@@ -25,8 +37,12 @@ export default function WeddingModal({ url, name }) {
             alt=""
             className="max-w-[500px] max-h-[80%] w-[90%] "
             /> */}
-          <div className="max-w-[500px] max-h-[80%] w-[90%] relative">
-            <SquareImage url={url} />
+          <div
+            onClick={(e) => e.stopPropagation()}
+            className="w-[80%] sm:w-[60%]  max-h-[80%] w-[90%] bg-transparent  flex justify-center items-center mx-auto"
+          >
+            {/* <SquareImage url={url} /> */}
+            <ImageGallary imgArr={url}/>
           </div>
         </div>
       )}
@@ -43,12 +59,6 @@ function SquareImage({ url, handleClick, normalMode = false }) {
       } border-gray-400 relative aspect-[4/3]`}
       onClick={handleClick}
     >
-      {/* <img
-        src={url}
-        alt=""
-        className="w-full h-full absolute top-[5%] left-[5%]"
-      /> */}
-
       <div
         style={{ backgroundImage: `url(${url})` }}
         onClick={(e) => {
@@ -60,6 +70,7 @@ function SquareImage({ url, handleClick, normalMode = false }) {
           normalMode ? "top-[5%] left-[5%]" : "rounded-lg"
         }`}
       ></div>
+
       {normalMode || (
         <button
           className="absolute -top-[15px] -right-[15px] cursor-pointer bg-zinc-200   rounded-full h-[30px] p-1 flex justify-center items-center w-[30px] hover:bg-zinc-300"
