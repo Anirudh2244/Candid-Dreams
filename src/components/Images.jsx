@@ -26,7 +26,7 @@ const Images = ({
         />
       ) : (
         <img
-          className="rounded-t-full object-cover h-full "
+          className="rounded-t-full object-cover h-full w-full"
           // style={{ height: `${height}px` }}
           src={url}
           alt="Wedding Image"

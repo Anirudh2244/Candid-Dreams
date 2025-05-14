@@ -2,6 +2,7 @@ import React from "react";
 import Images from "./Images";
 import feature_video from "../assets/videos/herovideo.mp4";
 import Typewriter from "./Typewriter";
+import feature_image from "../assets/images/wedding/w5/1.jpg";
 function Herosection() {
   return (
     <div className="flex border-b-2 border-zinc-400 flex-col md:flex-row">
@@ -39,11 +40,7 @@ function Herosection() {
         </div>
         <div className="absolute md:left-[5%] left-[5%] h-[50%] md:w-[40%] w-[40%]">
           {" "}
-          <Images
-            url="https://www.ptaufiqphotography.com/wp-content/uploads/2018/10/ptaufiq-indian-wedding-jaisalmer-india-destination-engagement-1280x854.jpg"
-            height="100%"
-            width="100%"
-          />
+          <Images url={feature_image} height="100%" width="100%" />
         </div>
       </div>
     </div>

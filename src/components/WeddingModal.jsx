@@ -29,7 +29,7 @@ export default function WeddingModal({ url, name }) {
       {
         <div
           onClick={handleShow}
-          className={`z-20 flex justify-center items-center  fixed w-[200vw] h-[200vh] -left-[50vw] -top-[50vh] bg-[rgba(0,0,0,0.8)] duration-300 trasnition ${
+          className={`z-20 flex justify-center items-center  fixed w-[200%] h-[200%] -left-[50vw] -top-[50vh] bg-[rgba(0,0,0,0.8)] duration-300 trasnition ${
             show
               ? "opacity-100 translate-y-0 scale-100"
               : "opacity-0 pointer-events-none translate-y-[200px] scale-75"
