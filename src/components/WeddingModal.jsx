@@ -26,26 +26,23 @@ export default function WeddingModal({ url, name }) {
     <div>
       <SquareImage url={url[0]} handleClick={handleShow} normalMode={true} />
       <p className="mt-5 text-xl text-zinc-600 head-font">{name}</p>
-      {show && (
+      {
         <div
           onClick={handleShow}
-          className="z-20 top-0 flex justify-center items-center left-0 fixed w-full h-dvh bg-[rgba(0,0,0,0.8)]  duration-300"
+          className={`z-20 flex justify-center items-center  fixed w-[200vw] h-[200vh] -left-[50vw] -top-[50vh] bg-[rgba(0,0,0,0.8)] duration-300 trasnition ${
+            show
+              ? "opacity-100 translate-y-0 scale-100"
+              : "opacity-0 pointer-events-none translate-y-[200px] scale-75"
+          }`}
         >
-          {/* <img
-            src={url}
-            onClick={(e) => e.stopPropagation()}
-            alt=""
-            className="max-w-[500px] max-h-[80%] w-[90%] "
-            /> */}
           <div
             onClick={(e) => e.stopPropagation()}
-            className="w-[80%] sm:w-[60%]  max-h-[80%] w-[90%] bg-transparent  flex justify-center items-center mx-auto"
+            className="w-[40%] sm:w-[30%] max-h-[40%] bg-transparent  flex justify-center items-center mx-auto"
           >
-            {/* <SquareImage url={url} /> */}
-            <ImageGallary imgArr={url}/>
+            <ImageGallary imgArr={url} />
           </div>
         </div>
-      )}
+      }
     </div>
   );
 }
