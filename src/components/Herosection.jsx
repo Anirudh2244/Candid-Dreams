@@ -33,11 +33,11 @@ function Herosection() {
         </div>
       </div>
 
-      <div className="md:border-l-2 border-zinc-400 relative flex justify-end items-end md:pr-10 pr-5 pb-5 w-full min-h-[400px] ">
-        <div className="absolute h-[90%] md:w-[60%] w-[70%]">
+      <div className="md:border-l-2 border-zinc-400 relative flex justify-end items-end md:pr-10 pr-5 pb-5 w-full min-h-[400px]">
+        <div className="absolute h-[90%] md:w-[60%] w-[70%] animation-x">
           <Images url={feature_video} video={true} height="100%" width="100%" />
         </div>
-        <div className="absolute md:left-[5%] left-[5%] h-[50%] md:w-[40%] w-[40%]">
+        <div className="absolute md:left-[5%] left-[5%] h-[50%] md:w-[40%] w-[40%] animation-x">
           {" "}
           <Images
             url="/assets/images/wedding/w5/1.jpg"

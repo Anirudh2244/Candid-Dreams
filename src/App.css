@@ -23,3 +23,17 @@
     scale: 1;
   }
 }
+.animation-x {
+  animation: appear-x 1s linear;
+}
+
+@keyframes appear-x {
+  from {
+    opacity: 0;
+    transform: translateX(400px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
