@@ -1,6 +1,6 @@
 import React from "react";
 import Images from "./Images";
-import feature_video from "/public/assets/videos/herovideo.mp4";
+import feature_video from "/assets/videos/herovideo.mp4";
 import Typewriter from "./Typewriter";
 function Herosection() {
   return (
@@ -39,7 +39,11 @@ function Herosection() {
         </div>
         <div className="absolute md:left-[5%] left-[5%] h-[50%] md:w-[40%] w-[40%]">
           {" "}
-          <Images url="public/assets/images/wedding/w5/1.jpg" height="100%" width="100%" />
+          <Images
+            url="public/assets/images/wedding/w5/1.jpg"
+            height="100%"
+            width="100%"
+          />
         </div>
       </div>
     </div>
