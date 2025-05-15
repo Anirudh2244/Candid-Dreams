@@ -37,7 +37,7 @@ export default function WeddingModal({ url, name }) {
         >
           <div
             onClick={(e) => e.stopPropagation()}
-            className="w-[40%] sm:w-[30%] max-h-[40%] bg-transparent  flex justify-center items-center mx-auto"
+            className="w-[40%] sm:w-[30%] max-h-[40%]  flex justify-center items-center mx-auto"
           >
             <ImageGallary imgArr={url} />
           </div>

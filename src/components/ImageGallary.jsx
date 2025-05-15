@@ -8,9 +8,26 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Navigation, Pagination } from "swiper/modules";
 
-export default function ImageGallary({imgArr}) {
+export default function ImageGallary({ imgArr }) {
+  const images = imgArr.map((img, index) => (
+    <SwiperSlide key={index}>
+      <div
+        className="w-full h-[500px] sm:max-h-[600px]"
+        style={{
+          backgroundImage: `url(${img})`,
+          backgroundSize: "contain",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      ></div>
 
-    const images = imgArr.map((img, index) => <SwiperSlide key={index}><img src={img} alt="" className="mx-auto max-h-[500px] sm:max-h-[600px]" /></SwiperSlide>)
+      {/* <img
+        src={img}
+        alt=""
+        className="object-contain w-[500px] h-[500px]"
+      /> */}
+    </SwiperSlide>
+  ));
   return (
     <Swiper
       slidesPerView={1}
@@ -23,8 +40,7 @@ export default function ImageGallary({imgArr}) {
       modules={[Pagination, Navigation]}
       className="mySwiper flex justify-center items-center w-full h-full"
     >
-        {images}
-      
+      {images}
     </Swiper>
   );
 }
