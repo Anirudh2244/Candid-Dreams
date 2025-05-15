@@ -3,8 +3,10 @@ import Images from "./Images";
 
 function Services() {
   return (
-    <div className="flex flex-col justify-center items-center gap-5">
-      <button className="bg-zinc-400 px-4 py-2 mt-10 text-white">Our Services</button>
+    <div className="flex flex-col justify-center items-center gap-5 animation-custom">
+      <button className="bg-zinc-400 px-4 py-2 mt-10 text-white">
+        Our Services
+      </button>
 
       <div class="inline-flex items-center justify-center w-full">
         <hr class="w-full m-5 h-0.5 my-5 bg-zinc-400 border-0" />

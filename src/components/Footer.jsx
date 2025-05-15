@@ -10,7 +10,11 @@ function Footer() {
   return (
     <div className="">
       <div className="px-2 py-10 text-center border-l-2 mx-5 sm:mx-15 border-r-2 border-zinc-400">
-        <p className="text-4xl head-font">Candid Dreams</p>
+        <img
+          src="https://i.ibb.co/F4FxYZPL/logo-removebg-preview.png"
+          alt="Candid Dreams"
+          className="w-50 mx-auto"
+        />
         <p className="text-xl my-5 text-zinc-600">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque,
           impedit.
