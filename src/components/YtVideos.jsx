@@ -2,7 +2,7 @@ import React from "react";
 
 function YtVideos() {
   return (
-    <div className="animation">
+    <div className="animation-custom">
       <div class="mt-10 inline-flex items-center justify-center w-full  mb-10 sm:mb-5">
         <hr class="w-full m-5 h-0.5 my-5 bg-zinc-400 border-0" />
         <span class="px-3 text-xl head-font sm:text-4xl text-zinc-800 -translate-x-1/2 text-center bg-white absolute left-1/2">

@@ -2,7 +2,7 @@ import React from "react";
 
 function Plansection() {
   return (
-    <div className="flex justify-between items-center flex-col sm:flex-row  sm:gap-0 gap-15 mt-15 bg-zinc-200 py-15 animation">
+    <div className="flex justify-between items-center flex-col sm:flex-row  sm:gap-0 gap-15 mt-15 bg-zinc-200 py-15 animation-custom">
       <div className="sm:w-1/2  pl-5">
         <p className="text-4xl head-font text-zinc-800">
           Getting Ready to Plan a <br /> special Event

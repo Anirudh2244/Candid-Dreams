@@ -3,7 +3,7 @@ import Images from "./Images";
 
 function Services() {
   return (
-    <div className="flex flex-col justify-center items-center gap-5 animation">
+    <div className="flex flex-col justify-center items-center gap-5 animation-custom">
       <button className="bg-zinc-400 px-4 py-2 mt-10 text-white">
         Our Services
       </button>

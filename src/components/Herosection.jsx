@@ -4,7 +4,7 @@ import feature_video from "/assets/videos/herovideo.mp4";
 import Typewriter from "./Typewriter";
 function Herosection() {
   return (
-    <div className="flex border-b-2 border-zinc-400 flex-col md:flex-row animation">
+    <div className="flex border-b-2 border-zinc-400 flex-col md:flex-row animation-custom">
       <div className="md:min-w-[45%] md:max-w-[45%]">
         <div className="text-4xl sm:text-6xl px-5 pt-10 pb-5 leading-12 sm:leading-18 head-font font-bold text-zinc-800">
           Hey There! <br />

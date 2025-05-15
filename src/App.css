@@ -7,16 +7,10 @@
   font-style: normal;
 }
 
-.animation {
-  animation: appear linear;
+.animation-custom {
+  animation: appear 2s linear;
   animation-timeline: view();
-  animation-range: entry 0 cover 40%;
-}
-
-.animation-footer {
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0 ;
+  animation-range: entry 0 cover 20%;
 }
 
 @keyframes appear {
