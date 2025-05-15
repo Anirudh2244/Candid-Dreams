@@ -66,7 +66,7 @@ const WEDDINGS = [
 
 function Portfolio() {
   return (
-    <div className=" flex justify-center items-center flex-col  sm:gap-3 mt-10 ">
+    <div className=" flex justify-center items-center flex-col  sm:gap-3 mt-10 animation">
       <button className="bg-zinc-400 text-white px-4 py-2  mt-10">
         Our Works
       </button>

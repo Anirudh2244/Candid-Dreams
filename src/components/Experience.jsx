@@ -4,7 +4,7 @@ import Images from "./Images";
 
 function Experience() {
   return (
-    <div className="flex flex-col sm:flex-row justify-around sm:items-center mt-15">
+    <div className="flex flex-col sm:flex-row justify-around sm:items-center mt-15 animation">
       <div className="flex flex-col items-start gap-5 ps-5">
         <div className="bg-zinc-400 text-white px-4 py-2 ">About us</div>
         <div className="text-4xl head-font text-zinc-800">
