@@ -40,7 +40,7 @@ function Herosection() {
         <div className="absolute md:left-[5%] left-[5%] h-[50%] md:w-[40%] w-[40%]">
           {" "}
           <Images
-            url="public/assets/images/wedding/w5/1.jpg"
+            url="/assets/images/wedding/w5/1.jpg"
             height="100%"
             width="100%"
           />
