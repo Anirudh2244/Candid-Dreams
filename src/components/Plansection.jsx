@@ -7,7 +7,7 @@ function Plansection() {
         <p className="text-4xl head-font text-zinc-800">
           Getting Ready to <br />Plan a <br /> special Event
         </p>
-        <p className="my-5 text-zinc-600">
+        <p className="my-5 text-zinc-600 pr-2">
         Capturing the magic of your journey, pre-wedding to wedding day, with vibrant, timeless photography. Let us tell your love story through stunning, heartfelt photography.
         </p>
         <a
