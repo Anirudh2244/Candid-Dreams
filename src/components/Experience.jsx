@@ -39,14 +39,14 @@ function Experience() {
       <div className="relative w-full h-4/5  sm:max-w-[40%] aspect-[16/9]">
         <div className="absolute h-full w-[50%] object-cover right-[5%] top-0 z-10">
           <Images
-            url="https://media.istockphoto.com/id/1127706701/photo/hindi-wedding-ceremony.jpg?s=1024x1024&w=is&k=20&c=-D2_-mbbweziTG2xRvVHCBgnFX-3495R-jC-lnOEsXs="
+            url="https://i.ibb.co/BVsFqV11/5.jpg"
             height="100%"
             width="100%"
           />
         </div>
         <div className="absolute h-full w-[50%] object-cover top-[20%] left-[5%] z-0">
           <Images
-            url="https://media.istockphoto.com/id/1141906552/photo/indian-hindu-couple-holding-each-other-hands-during-their-marriage-symbolising-love-and.jpg?s=1024x1024&w=is&k=20&c=ykJaSgPmkDS64ey6pD8oMhCmHXg90cN8cgRMZZTN0cc="
+            url="https://i.ibb.co/0p92ybvJ/4.jpg"
             height="100%"
             width="100%"
           />

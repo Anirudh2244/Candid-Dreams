@@ -16,8 +16,8 @@ function Footer() {
           className="w-50 mx-auto"
         />
         <p className="text-xl my-5 text-zinc-600">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque,
-          impedit.
+          Near Gulab Garh, <br />
+          Patrakar colony, Jaipur
         </p>
         <div>
           <a text="whatsapp" href="https://wa.me/918114412845" target="_blank">
@@ -50,7 +50,7 @@ function Footer() {
 
       <div className="flex justify-center items-center mb-10 ">
         <hr className="w-full h-0.5  bg-zinc-400 border-0" />
-        <span className="px-3 text-xl text-center text-zinc-600 -translate-x-1/2 bg-white absolute left-1/2">
+        <span className="px-3 text-lg text-center text-zinc-600 -translate-x-1/2 bg-white absolute left-1/2">
           © 2025 Candid Dreams
         </span>
       </div>

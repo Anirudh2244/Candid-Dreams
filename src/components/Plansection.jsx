@@ -8,9 +8,7 @@ function Plansection() {
           Getting Ready to Plan a <br /> special Event
         </p>
         <p className="my-5 text-zinc-600">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-          incidunt labore fugiat sunt temporibus, quia omnis, hic ratione
-          consequatur fugit accusantium, nihil ducimus ab. Doloribus.
+        Capturing the magic of your journey, pre-wedding to wedding day, with vibrant, timeless photography. Let us tell your love story through stunning, heartfelt photography.
         </p>
         <a
           href="https://wa.me/918114412845"
@@ -23,12 +21,12 @@ function Plansection() {
 
       <div class="relative w-full sm:w-[40%] h-[20%] max-w-[700px] aspect-[16/8]  ">
         <img
-          src="https://thecandidhouse.com/images/upload/TCH02685.jpg"
+          src="https://i.ibb.co/pgnNybN/3.jpg"
           alt=""
           class="absolute h-full w-[45%] right-[10%] sm:w-1/2 object-cover sm:left-[40%] z-10 bottom-[10%]"
         />
         <img
-          src="https://media.istockphoto.com/id/2168707868/photo/indian-couple-holding-hand-close-up-in-wedding-ceremony.jpg?s=1024x1024&w=is&k=20&c=bMeqmdbQ3QFgY8va5JQOCr0kr4rp89Uyn3zSkvbzmPo="
+          src="https://i.ibb.co/gMxC1Q2G/DSC04492-copy-2.jpg"
           alt=""
           class="absolute h-full w-[45%] left-[10%] sm:w-1/2 object-cover top-[10%] sm:left-0 z-0"
         />
