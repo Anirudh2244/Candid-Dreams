@@ -10,7 +10,7 @@
 .animation-custom {
   animation: appear 2s linear;
   animation-timeline: view();
-  animation-range: entry 0 cover 20%;
+  animation-range: entry 0 cover 30%;
 }
 
 @keyframes appear {

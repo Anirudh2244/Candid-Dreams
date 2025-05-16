@@ -21,27 +21,23 @@ function Services() {
         </p>
       </div>
 
-      <div className="flex flex-col sm:flex-row justify-around gap-5 sm:gap-0">
-        <div className="sm:w-[32%] flex flex-col justify-center items-center">
+      <div className="flex flex-col w-full sm:flex-row justify-evenly  items-center gap-5 sm:gap-0">
+        <div className="flex w-[80%] sm:w-[25%] flex-col justify-center items-center">
           <Images
-            url="https://thecandidhouse.com/images/upload/TCH02685.jpg"
-            width="80%"
+            url="https://i.ibb.co/dwb06c0y/DSC08047-copy.jpg"
+            width="100%"
           />
           <p className="py-2 text-xl head-font text-zinc-800">Pre Wedding</p>
         </div>
-        <div className="sm:w-[32%] flex flex-col justify-center items-center">
-          <Images
-            url="https://media.istockphoto.com/id/2168707868/photo/indian-couple-holding-hand-close-up-in-wedding-ceremony.jpg?s=1024x1024&w=is&k=20&c=bMeqmdbQ3QFgY8va5JQOCr0kr4rp89Uyn3zSkvbzmPo="
-            width="80%"
-          />
+        <div className=" flex w-[80%] sm:w-[25%] flex-col justify-center items-center">
+          <Images url="https://i.ibb.co/hFT9HxBG/1.jpg" width="100%" />
           <p className="py-2 head-font text-zinc-800 text-xl">Weddings</p>
         </div>
-        <div className="sm:w-[32%] flex flex-col justify-center items-center">
-          <Images
-            url="https://www.partyone.in/suploads/2024/Jun/26/38857/1719365590IMG_E7413.webp"
-            width="80%"
-          />
-          <p className="py-2 head-font text-zinc-800 text-xl">Events</p>
+        <div className=" flex w-[80%] sm:w-[25%] flex-col justify-center items-center">
+          <Images url="https://i.ibb.co/VYsCy07z/DSC07584-1.jpg" width="100%" />
+          <p className="py-2 head-font text-zinc-800 text-xl">
+            Shoots and Events
+          </p>
         </div>
       </div>
     </div>
