@@ -6,15 +6,15 @@ function Herosection() {
   return (
     <div className="flex border-b-2 border-zinc-400 flex-col md:flex-row animation-custom">
       <div className="md:min-w-[45%] md:max-w-[45%]">
-        <div className="text-4xl sm:text-6xl px-5 pt-10 pb-5 leading-12 sm:leading-18 head-font font-bold text-zinc-800">
+        <div className="text-4xl sm:text-6xl px-2 sm:px-5 pt-10 pb-5 leading-12 sm:leading-18 head-font font-bold text-zinc-800">
           Hey There! <br />
           We Are The Candid Dreams.
         </div>
-        <p className="text-xl sm:text-2xl px-5 pb-5 head-font text-zinc-800">
+        <p className="text-xl sm:text-2xl px-2 sm:px-5 pb-5 head-font text-zinc-800">
           <Typewriter />
         </p>
 
-        <div className="border-t-2 border-zinc-400 px-5 py-10">
+        <div className="border-t-2 border-zinc-400 px-2 sm:px-5 py-10">
           <p className="mb-5 text-zinc-600">
             We are experienced photographers and cinematographers, capturing
             genuine moments with creativity, passion, and care. From heartfelt

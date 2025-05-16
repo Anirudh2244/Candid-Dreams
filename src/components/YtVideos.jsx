@@ -9,7 +9,7 @@ function YtVideos() {
           Moments
         </span>
       </div>
-      <div className="  flex flex-col sm:flex-row gap-5 mx-3 sm:mx-5 justify-around items-center">
+      <div className="  flex flex-col sm:flex-row gap-5 mx-2 sm:mx-5 justify-around items-center">
         <iframe
           className="w-full sm:w-1/2 aspect-16/9"
           //   width="560"

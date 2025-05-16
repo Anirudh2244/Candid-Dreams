@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="max-w-[1440px] mx-auto">
       <Navbar />
-      <div className="mx-5 sm:mx-15  border-l-2 border-r-2 border-zinc-400 ">
+      <div className="mx-2 sm:mx-15  border-l-2 border-r-2 border-zinc-400 ">
         <Herosection />
         <Services />
         <Experience />

@@ -9,7 +9,7 @@ import React from "react";
 function Footer() {
   return (
     <div>
-      <div className="px-2 py-10 text-center border-l-2 mx-5 sm:mx-15 border-r-2 border-zinc-400">
+      <div className="px-2 py-10 text-center border-l-2 mx-2 sm:mx-15 border-r-2 border-zinc-400">
         <img
           src="https://i.ibb.co/F4FxYZPL/logo-removebg-preview.png"
           alt="Candid Dreams"
@@ -50,7 +50,7 @@ function Footer() {
 
       <div className="flex justify-center items-center mb-10 ">
         <hr className="w-full h-0.5  bg-zinc-400 border-0" />
-        <span className="px-3 text-lg text-center text-zinc-600 -translate-x-1/2 bg-white absolute left-1/2">
+        <span className="px-3 text-sm sm:text-lg text-center text-zinc-600 -translate-x-1/2 bg-white absolute left-1/2">
           © 2025 Candid Dreams
         </span>
       </div>

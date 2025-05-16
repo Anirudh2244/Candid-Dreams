@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="px-5 sm:px-15 flex justify-between items-center py-2 border-b-2 border-zinc-400">
+    <div className="px-2 sm:px-15 flex justify-between items-center py-2 border-b-2 border-zinc-400">
       <div className="text-xl sm:text-3xl head-font">
         <img
           src="https://i.ibb.co/F4FxYZPL/logo-removebg-preview.png"
