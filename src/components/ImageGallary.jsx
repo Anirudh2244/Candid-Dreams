@@ -11,21 +11,24 @@ import { Navigation, Pagination } from "swiper/modules";
 export default function ImageGallary({ imgArr }) {
   const images = imgArr.map((img, index) => (
     <SwiperSlide key={index}>
-      <div
+      {/* <div
         className="w-full h-[500px] sm:max-h-[600px]"
         style={{
           backgroundImage: `url(${img})`,
-          backgroundSize: "cover",
+          backgroundSize: "contain",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
         }}
-      ></div>
+      ></div> */}
 
-      {/* <img
-        src={img}
-        alt=""
-        className="object-contain w-[500px] h-[500px]"
-      /> */}
+      <div className="w-full h-[500px] sm:max-h-[600px] flex justify-center items-center overflow-hidden ">
+        <img
+          src={img}
+          alt="Descriptive alt text"
+          className="max-h-full max-w-full object-contain select-none"
+          draggable="false"
+        />
+      </div>
     </SwiperSlide>
   ));
   return (
