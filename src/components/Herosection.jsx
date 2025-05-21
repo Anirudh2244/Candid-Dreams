@@ -16,7 +16,7 @@ function Herosection() {
 
         <div className="border-t-2 border-zinc-400 px-2 sm:px-5 py-10">
           <p className="mb-5 text-zinc-600 pr-2">
-            We are experienced photographers and cin ematographers, capturing
+            We are experienced photographers and cinematographers, capturing
             genuine moments with creativity, passion, and care. From heartfelt
             smiles to unforgettable celebrations, we turn your special memories
             into timeless stories through stunning imagery and cinematic films.
