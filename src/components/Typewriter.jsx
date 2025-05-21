@@ -49,10 +49,10 @@ const Typewriter = ({ staticStr, dynamicArr }) => {
   }, [displayedText, phase, wordIndex]);
 
   return (
-    <h1 style={{ whiteSpace: "pre" }}>
+    <div className="text-wrap h1">
       {displayedText}
       <span className="cursor">|</span>
-    </h1>
+    </div>
   );
 };
 

@@ -30,6 +30,7 @@ const Images = ({
           // style={{ height: `${height}px` }}
           src={url}
           alt="Wedding Image"
+          loading="lazy"
         />
       )}
     </div>
