@@ -11,7 +11,15 @@ function Herosection() {
           We Are The Candid Dreams.
         </div>
         <p className="text-xl sm:text-2xl px-2 sm:px-5 pb-5 head-font text-zinc-800">
-          <Typewriter />
+          <Typewriter
+            staticStr="We Capture"
+            dynamicArr={[
+              "Emotions!❤️",
+              "Memories!✨",
+              "Heart!❤️",
+              "Feelings!✨",
+            ]}
+          />
         </p>
 
         <div className="border-t-2 border-zinc-400 px-2 sm:px-5 py-10">

@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 
-const Typewriter = () => {
-  const staticPart = "We Capture"; // static text part
-  const dynamicWords = ["Emotions!❤️", "Memories!✨", "Heart!❤️", "Feelings!✨"];
+const Typewriter = ({ staticStr, dynamicArr }) => {
+  const staticPart = staticStr; // static text part
+  const dynamicWords = dynamicArr;
   const typingSpeed = 100;
   const backspaceSpeed = 50;
-  const delayBetweenWords = 1000;
+  const delayBetweenWords = 700;
 
   const [displayedText, setDisplayedText] = useState("");
   const [wordIndex, setWordIndex] = useState(0);
