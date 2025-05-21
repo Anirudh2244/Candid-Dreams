@@ -1,5 +1,6 @@
 import React from "react";
 import Images from "./Images";
+import { Link } from "react-router";
 
 function Services() {
   return (
@@ -23,18 +24,27 @@ function Services() {
 
       <div className="flex flex-col w-full sm:flex-row justify-evenly  items-center gap-5 sm:gap-0">
         <div className="flex w-[80%] sm:w-[25%] flex-col justify-center items-center">
-          <Images
-            url="https://i.ibb.co/dwb06c0y/DSC08047-copy.jpg"
-            width="100%"
-          />
+          <Link to="/preweddings" className="block w-full">
+            <Images
+              url="https://i.ibb.co/dwb06c0y/DSC08047-copy.jpg"
+              width="100%"
+            />
+          </Link>
           <p className="py-2 text-xl head-font text-zinc-800">Pre Wedding</p>
         </div>
         <div className=" flex w-[80%] sm:w-[25%] flex-col justify-center items-center">
-          <Images url="https://i.ibb.co/hFT9HxBG/1.jpg" width="100%" />
+          <Link to="/weddings" className="block w-full">
+            <Images url="https://i.ibb.co/hFT9HxBG/1.jpg" width="100%" />
+          </Link>
           <p className="py-2 head-font text-zinc-800 text-xl">Weddings</p>
         </div>
         <div className=" flex w-[80%] sm:w-[25%] flex-col justify-center items-center">
-          <Images url="https://i.ibb.co/VYsCy07z/DSC07584-1.jpg" width="100%" />
+          <Link to="/shoots-events" className="block w-full">
+            <Images
+              url="https://i.ibb.co/VYsCy07z/DSC07584-1.jpg"
+              width="100%"
+            />
+          </Link>
           <p className="py-2 head-font text-zinc-800 text-xl">
             Shoots and Events
           </p>

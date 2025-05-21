@@ -19,7 +19,6 @@ function App() {
         <Herosection />
         <Services />
         <Experience />
-
         <Portfolio />
         <YtVideos />
         <Plansection />
