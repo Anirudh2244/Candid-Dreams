@@ -10,14 +10,15 @@ function Herosection() {
           Hey There! <br />
           We Are The Candid Dreams.
         </div>
-        <p className="text-xl sm:text-2xl px-2 sm:px-5 pb-5 head-font text-zinc-800">
+        <p className="text-xl gap-2 flex sm:text-2xl px-2 sm:px-5 pb-5 head-font text-zinc-800">
+          <span>We Capture </span>
           <Typewriter
-            staticStr="We Capture"
+            staticStr=""
             dynamicArr={[
-              "Emotions!❤️",
-              "Memories!✨",
-              "Heart!❤️",
-              "Feelings!✨",
+              " Emotions!❤️",
+              " Memories!✨",
+              " Heart!❤️",
+              " Feelings!✨",
             ]}
           />
         </p>
