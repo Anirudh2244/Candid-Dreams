@@ -10,21 +10,24 @@
 .animation-custom {
   animation: appear 2s linear;
   animation-timeline: view();
-  animation-range: entry 0 cover 30%;
+  animation-range: entry 0 cover 400px;
+  will-change: transform, opacity;
 }
 
 @keyframes appear {
   from {
     opacity: 0;
-    scale: 0.5;
+    transform: scale(0.5);
   }
   to {
     opacity: 1;
-    scale: 1;
+    transform: scale(1);
   }
 }
+
 .animation-x {
   animation: appear-x 1s linear;
+  will-change: transform, opacity;
 }
 
 @keyframes appear-x {
