@@ -15,7 +15,7 @@ export default function ImageGallary({ imgArr }) {
         className="w-full h-[500px] sm:max-h-[600px]"
         style={{
           backgroundImage: `url(${img})`,
-          backgroundSize: "contain",
+          backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
         }}
