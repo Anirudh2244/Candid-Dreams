@@ -11,18 +11,18 @@ import YtVideos from "./components/YtVideos";
 import Loading from "./components/Loading";
 
 function App() {
-  const [showLoading, setShowLoading] = useState(true);
+  // const [showLoading, setShowLoading] = useState(true);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowLoading(false);
-    }, 4000);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setShowLoading(false);
+  //   }, 4000);
 
-    return () => clearTimeout(timer);
-  }, []);
+  //   return () => clearTimeout(timer);
+  // }, []);
   return (
     <>
-      {showLoading ? (
+      {false ? (
         <Loading />
       ) : (
         <div className="max-w-[1440px] mx-auto">
