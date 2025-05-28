@@ -27,6 +27,7 @@ export default function ImageGallary({ imgArr }) {
           alt="Descriptive alt text"
           className="max-h-full max-w-full object-contain select-none"
           draggable="false"
+          loading="lazy"
         />
       </div>
     </SwiperSlide>
