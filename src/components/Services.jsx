@@ -26,22 +26,22 @@ function Services() {
         <div className="flex w-[80%] sm:w-[25%] flex-col justify-center items-center">
           <Link to="/preweddings" className="block w-full">
             <Images
-              url="https://i.ibb.co/dwb06c0y/DSC08047-copy.jpg"
+              url="./assets/images/thumbnails/preWedThumbnail.jpg"
               width="100%"
-            />
+            /> 
           </Link>
           <p className="py-2 text-xl head-font text-zinc-800">Pre Wedding</p>
         </div>
         <div className=" flex w-[80%] sm:w-[25%] flex-col justify-center items-center">
           <Link to="/weddings" className="block w-full">
-            <Images url="https://i.ibb.co/hFT9HxBG/1.jpg" width="100%" />
+            <Images url="./assets/images/thumbnails/weddingThumbnail.jpg" width="100%" />
           </Link>
           <p className="py-2 head-font text-zinc-800 text-xl">Weddings</p>
         </div>
         <div className=" flex w-[80%] sm:w-[25%] flex-col justify-center items-center">
           <Link to="/shoots-events" className="block w-full">
             <Images
-              url="https://i.ibb.co/VYsCy07z/DSC07584-1.jpg"
+              url="./assets/images/thumbnails/shootsThumbnail.jpg"
               width="100%"
             />
           </Link>

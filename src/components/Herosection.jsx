@@ -49,7 +49,7 @@ function Herosection() {
         <div className="absolute md:left-[5%] left-[5%] h-[50%] md:w-[40%] w-[40%] animation-x">
           {" "}
           <Images
-            url="./assets/heroImage/heroImg.jpg"
+            url="./assets/images/heroImage/heroImg.jpg"
             video={false}
             height="100%"
             width="100%"
