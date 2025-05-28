@@ -49,7 +49,8 @@ function Herosection() {
         <div className="absolute md:left-[5%] left-[5%] h-[50%] md:w-[40%] w-[40%] animation-x">
           {" "}
           <Images
-            url="https://ik.imagekit.io/adsrc2244/wedding/w5/1.jpg?updatedAt=1748422227482"
+            url="./assets/images/heroimg.jpg"
+            video={false}
             height="100%"
             width="100%"
           />
