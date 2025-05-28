@@ -11,7 +11,7 @@ function Footer() {
     <div>
       <div className="px-2 py-10 text-center border-l-2 mx-2 sm:mx-15 border-r-2 border-zinc-400">
         <img
-          src="https://i.ibb.co/F4FxYZPL/logo-removebg-preview.png"
+          src="./assets/images/logo/logo.png"
           alt="Candid Dreams"
           className="w-50 mx-auto"
         />
