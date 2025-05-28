@@ -24,13 +24,13 @@ function Plansection() {
 
       <div class="relative w-full sm:w-[50%] h-[20%] max-w-[700px] aspect-[16/8]  ">
         <img
-          src="https://i.ibb.co/pgnNybN/3.jpg"
+          src="https://ik.imagekit.io/adsrc2244/zz2.jpg?updatedAt=1748442279694"
           alt=""
           class="absolute h-full w-[50%] right-[2%] sm:w-1/2 object-cover sm:right-[10%] z-10 bottom-[10%]"
           loading="lazy"
         />
         <img
-          src="https://i.ibb.co/gMxC1Q2G/DSC04492-copy-2.jpg"
+          src="https://ik.imagekit.io/adsrc2244/zz.jpg?updatedAt=1748442279782"
           alt=""
           class="absolute h-full w-[50%] left-[2%] sm:w-1/2 object-cover top-[10%]  z-0"
           loading="lazy"
