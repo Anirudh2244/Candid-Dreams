@@ -17,7 +17,7 @@ const WEDDINGS = [
       "https://ik.imagekit.io/adsrc2244/wedding/w2/1.jpg?updatedAt=1748422229548",
       "https://ik.imagekit.io/adsrc2244/wedding/w2/2.jpg?updatedAt=1748422228545",
       "https://ik.imagekit.io/adsrc2244/wedding/w2/3.jpg?updatedAt=1748422228275",
-      "https://ik.imagekit.io/adsrc2244/wedding/w2/3.jpg?updatedAt=1748422228275",
+      "https://ik.imagekit.io/adsrc2244/wedding/w2/4.jpg?updatedAt=1748422227817",
       "https://ik.imagekit.io/adsrc2244/wedding/w2/5.jpg?updatedAt=1748422228400",
     ],
     name: "Nehal & Akshay",
