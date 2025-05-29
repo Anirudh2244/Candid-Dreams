@@ -1,5 +1,6 @@
 import React from "react";
 import PageGallary from "./PageGallary";
+import Navbar from "../components/Navbar";
 
 const wedImages = [
   "https://ik.imagekit.io/adsrc2244/wedding/w1/1.jpg?updatedAt=1748422222798",
@@ -40,8 +41,11 @@ const wedImages = [
 
 function Wedding() {
   return (
+    <div>
+      <Navbar />
     <div className="sm:p-4 p-2">
       <PageGallary gallaryImages={wedImages} />
+    </div>
     </div>
   );
 }
