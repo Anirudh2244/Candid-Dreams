@@ -8,6 +8,7 @@ const Images = ({
   paddingRight = "10px",
   width = "320px",
   video = false,
+  poster = "",
 }) => {
   return (
     <div
@@ -20,6 +21,7 @@ const Images = ({
           // style={{ height: `${height}px` }}
           src={url}
           alt="Wedding Video"
+          poster={poster}
           autoPlay
           loop
           muted

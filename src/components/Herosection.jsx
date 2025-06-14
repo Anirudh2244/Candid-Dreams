@@ -44,7 +44,13 @@ function Herosection() {
 
       <div className="md:border-l-2 border-zinc-400 relative flex justify-end items-end md:pr-10 pr-5 pb-5 w-full min-h-[400px]">
         <div className="absolute h-[90%] md:w-[60%] w-[70%] animation-x">
-          <Images url={feature_video} video={true} height="100%" width="100%" />
+          <Images
+            url={feature_video}
+            video={true}
+            height="100%"
+            width="100%"
+            poster="https://ik.imagekit.io/adsrc2244/wedding/w1/3.jpg?updatedAt=1748422221681"
+          />
         </div>
         <div className="absolute md:left-[5%] left-[5%] h-[50%] md:w-[40%] w-[40%] animation-x">
           {" "}
