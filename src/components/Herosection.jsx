@@ -49,7 +49,7 @@ function Herosection() {
             video={true}
             height="100%"
             width="100%"
-            poster="https://ik.imagekit.io/adsrc2244/wedding/w1/3.jpg?updatedAt=1748422221681"
+            poster="./assets/images/heroImage/videoposter.jpg"
           />
         </div>
         <div className="absolute md:left-[5%] left-[5%] h-[50%] md:w-[40%] w-[40%] animation-x">
