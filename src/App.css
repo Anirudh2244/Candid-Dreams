@@ -26,7 +26,7 @@
 }
 
 .animation-x {
-  animation: appear-x 2s linear;
+  animation: appear-x 1.5s linear;
   will-change: transform, opacity;
 }
 

@@ -3,7 +3,7 @@ import { Link } from "react-router";
 
 function Navbar() {
   return (
-    <div className="px-2 sm:px-15 flex justify-between items-center py-2 border-b-2 border-zinc-400">
+    <div className="px-2 sm:px-15 flex justify-between items-center py-2 border-b-2 border-zinc-400 ">
       <div className="text-xl sm:text-3xl head-font">
         <Link to="/">
           <img
