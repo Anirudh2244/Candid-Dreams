@@ -24,13 +24,13 @@ function Herosection() {
         className="flex border-b-2 border-zinc-400 flex-col"
       >
         {/* Left Content */}
-        <div className="md:min-w-[45%] md:max-w-[45%] px-2 sm:px-5 pt-10 pb-5">
+        <div className="md:min-w-[45%] md:max-w-[45%] px-2 sm:px-5 py-10 ">
           <div className="text-4xl sm:text-6xl leading-12 sm:leading-18 head-font font-bold text-zinc-800">
             Hey There! <br />
             We Are The Candid Dreams.
           </div>
 
-          <p className="text-xl gap-2 flex sm:text-2xl pb-5 head-font text-zinc-800">
+          <p className="text-xl gap-2 flex sm:text-2xl py-5 head-font text-zinc-800">
             <span>We Capture </span>
             <Typewriter
               staticStr=""
@@ -38,7 +38,7 @@ function Herosection() {
             />
           </p>
 
-          <div className="border-t-2 border-zinc-400 py-10">
+          <div className="border-t-2 border-zinc-400 pt-10">
             <p className="mb-5 text-zinc-600 pr-2">
               We are experienced photographers and cinematographers, capturing
               genuine moments with creativity, passion, and care. From heartfelt
