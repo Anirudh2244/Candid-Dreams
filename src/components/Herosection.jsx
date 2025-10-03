@@ -1,6 +1,6 @@
 import React from "react";
 import Images from "./Images";
-import feature_video from "/assets/videos/herovideo.mp4";
+// import feature_video from "/assets/videos/herovideo.mp4";
 import Typewriter from "./Typewriter";
 import { motion } from "framer-motion";
 
@@ -62,7 +62,7 @@ function Herosection() {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
             viewport={{ once: true }}
-            className="bg-red-700 hover:bg-red-900 px-4 py-2 text-white rounded-lg font-semibold  inline-block"
+            className="bg-red-700 hover:bg-red-900 px-4 py-2 text-white font-semibold  inline-block"
           >
             Get in Touch
           </motion.a>
@@ -85,7 +85,7 @@ function Herosection() {
           className="absolute h-[90%] md:w-[60%] w-[70%]"
         >
           <Images
-            url={feature_video}
+            url="https://ik.imagekit.io/adsrc2244/wedding/herovideo.mp4?updatedAt=1759480354834"
             video={true}
             height="100%"
             width="100%"

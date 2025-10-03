@@ -16,7 +16,7 @@ function Navbar() {
       <a
         href="https://wa.me/918114412845"
         target="_blank"
-        className="border-2 text-sm sm:text-lg hover:bg-zinc-200 border-zinc-400 text-zinc-600 px-2 py-1 rounded-md"
+        className="border-2 text-sm sm:text-lg hover:bg-zinc-200 border-zinc-400 text-zinc-600 px-2 py-1 "
       >
         Contact Us
       </a>

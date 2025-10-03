@@ -7,7 +7,7 @@
   font-style: normal;
 }
 
-.animation-custom {
+/* .animation-custom {
   animation: appear 2s linear;
   animation-timeline: view();
   animation-range: entry 0 cover 400px;
@@ -39,4 +39,4 @@
     opacity: 1;
     transform: translateZ(0px);
   }
-}
+} */
