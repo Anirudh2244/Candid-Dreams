@@ -1,7 +1,6 @@
 import React from "react";
 import PageGallary from "./PageGallary";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 
 const preWedImages = [
   "https://ik.imagekit.io/adsrc2244/prewedding/1.jpg?updatedAt=1748432308971",
@@ -53,13 +52,12 @@ const preWedImages = [
 
 function Prewedding() {
   return (
-    <div className="">
+    <div>
       <Navbar />
-    <div className="sm:p-4 p-2">
-      <PageGallary gallaryImages={preWedImages} />
+      <div className="sm:p-4 p-2">
+        <PageGallary gallaryImages={preWedImages} />
+      </div>
     </div>
-    </div>
-
   );
 }
 

@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import WeddingModal from "./WeddingModal";
+import { motion } from "framer-motion";
 
 const WEDDINGS = [
   {
@@ -65,26 +66,78 @@ const WEDDINGS = [
 ];
 
 function Portfolio() {
+  const [viewportAmount, setViewportAmount] = useState(0.2);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 640) {
+        setViewportAmount(0.1); // Mobile: trigger sooner
+      } else {
+        setViewportAmount(0.2); // Desktop: trigger slightly later
+      }
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
-    <div className=" flex justify-center items-center flex-col  sm:gap-3 mt-10 ">
-      <button className="bg-zinc-400 text-white px-4 py-2  mt-10 animation-custom">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1, ease: "easeOut" }}
+      viewport={{ once: true, amount: viewportAmount }}
+      className="flex justify-center items-center flex-col sm:gap-3 mt-10"
+    >
+      {/* Button */}
+      <motion.button
+        initial={{ opacity: 0, scale: 0.95 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+        viewport={{ once: true, amount: viewportAmount }}
+        className="bg-zinc-400 text-white px-4 py-2 mt-10"
+      >
         Our Works
-      </button>
-      <div class="inline-flex items-center justify-center w-full  mb-10 sm:mb-5 animation-custom">
-        <hr class="w-full m-5 h-0.5 my-5 bg-zinc-400 border-0" />
-        <span class="px-3 text-xl head-font sm:text-4xl text-zinc-800 -translate-x-1/2 text-center bg-white absolute left-1/2">
+      </motion.button>
+
+      {/* Heading */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
+        viewport={{ once: true, amount: viewportAmount }}
+        className="inline-flex items-center justify-center w-full mb-10 sm:mb-5 relative"
+      >
+        <hr className="w-full m-5 h-0.5 my-5 bg-zinc-400 border-0" />
+        <span className="px-3 text-xl head-font sm:text-4xl text-zinc-800 -translate-x-1/2 text-center bg-white absolute left-1/2">
           Latest Projects
         </span>
-      </div>
+      </motion.div>
 
-      <div className=" w-full md:pr-5 pb-5 ">
-        <div className="grid  sm:grid-cols-2 md:grid-cols-3 gap-10 mx-4 mr-8 sm:mx-15  ">
+      {/* Grid of Weddings */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 0.4, ease: "easeOut" }}
+        viewport={{ once: true, amount: viewportAmount }}
+        className="w-full md:pr-5 pb-5"
+      >
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-10 mx-4 mr-8 sm:mx-15">
           {WEDDINGS.map((wedding, index) => (
-            <WeddingModal key={index} name={wedding.name} url={wedding.urls} />
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, scale: 0.98 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1, delay: 0.5 + index * 0.1, ease: "easeOut" }}
+              viewport={{ once: true, amount: viewportAmount }}
+            >
+              <WeddingModal name={wedding.name} url={wedding.urls} />
+            </motion.div>
           ))}
         </div>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 }
 

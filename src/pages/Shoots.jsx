@@ -22,9 +22,9 @@ function Shoots() {
   return (
     <div>
       <Navbar />
-    <div className="sm:p-4 p-2">
-      <PageGallary gallaryImages={shootsImages} />
-    </div>
+      <div className="sm:p-4 p-2">
+        <PageGallary gallaryImages={shootsImages} />
+      </div>
     </div>
   );
 }
