@@ -16,7 +16,6 @@ function Herosection() {
   }, []);
 
   if (isMobile) {
-    // Mobile: animate whole section at once
     return (
       <motion.div
         initial={{ opacity: 0 }}
@@ -85,7 +84,6 @@ function Herosection() {
     );
   }
 
-  // Desktop: animate children separately
   return (
     <motion.div
       initial={{ opacity: 0 }}
